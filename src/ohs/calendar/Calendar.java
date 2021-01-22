@@ -27,7 +27,7 @@ public class Calendar {
 
 	public void printCalender(int year,int month, int weekday) {
 		System.out.printf("   <<%4d %3d월>>\n", year,  month);
-		System.out.println(" 일 월 화 수 목 금 토");
+		System.out.println("   일    월    화    수    목    금    토");
 		System.out.println("---------------------------");
 			for (int i = 0; i < weekday; i++){
 				System.out.print("   ");
