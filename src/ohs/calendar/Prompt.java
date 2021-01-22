@@ -24,7 +24,6 @@ public class Prompt {
 	}
 
 	public void runPrompt() {
-		// 숫자를 입력받아 해당하는 달의 최대 일수를 출력하는 프로그램
 		Scanner scanner = new Scanner(System.in);
 		Calendar cal = new Calendar();
 
@@ -51,12 +50,10 @@ public class Prompt {
 
 		System.out.println("bye~");
 
-		// cal.printSampleCalender();
-
 		scanner.close();
 	}
 
-	// TODO Auto-generated method stub
+	
 	public static void main(String[] args) {
 
 		// 셀 실행
